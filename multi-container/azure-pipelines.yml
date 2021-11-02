@@ -41,4 +41,4 @@ steps:
       displayName: set up django
     - script: |
         printenv
-        python /__w/1/s/manage.py test
+        python ./manage.py test
