@@ -40,4 +40,5 @@ steps:
         pip install mysqlclient
       displayName: set up django
     - script: |
-          python /__w/1/s/manage.py test
+        printenv
+        python /__w/1/s/manage.py test
